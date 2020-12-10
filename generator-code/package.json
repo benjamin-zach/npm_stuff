@@ -1,0 +1,82 @@
+{
+  "_from": "generator-code",
+  "_id": "generator-code@1.3.9",
+  "_inBundle": false,
+  "_integrity": "sha512-ZdPlHhFXFazylyc7lARfMYqi/MaNM2i6Eom7LLw+ntHyQN8dChTe4U1YF8nKe+cuTzo1TKOEROM/FJCOc6nxiw==",
+  "_location": "/generator-code",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "generator-code",
+    "name": "generator-code",
+    "escapedName": "generator-code",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/generator-code/-/generator-code-1.3.9.tgz",
+  "_shasum": "819ce5c35cb6dc9d82bd9bf142c3e80e73f24a4b",
+  "_spec": "generator-code",
+  "_where": "C:\\Users\\benja\\Downloads\\cmder",
+  "author": {
+    "name": "VS Code Team",
+    "url": "https://github.com/Microsoft"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/vscode-generator-code/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "cd": "^0.3.3",
+    "chalk": "^4.1.0",
+    "fast-plist": "^0.1.2",
+    "kind-of": "6.0.3",
+    "request-light": "^0.4.0",
+    "sanitize-filename": "^1.6.3",
+    "sax": "^1.2.4",
+    "yeoman-generator": "^4.12.0",
+    "yosay": "^2.0.2"
+  },
+  "deprecated": false,
+  "description": "Yeoman generator for Visual Studio Code Extensions",
+  "devDependencies": {
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.10",
+    "@types/yeoman-generator": "^4.11.3",
+    "mocha": "^8.2.1",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^3.0.0",
+    "yo": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "http://code.visualstudio.com",
+  "keywords": [
+    "yeoman-generator",
+    "vscode",
+    "visual studio",
+    "visual studio code",
+    "vs code",
+    "extensions"
+  ],
+  "license": "MIT",
+  "main": "./generators/app/index.js",
+  "name": "generator-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/vscode-generator-code.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm test",
+    "preversion": "npm test",
+    "test": "mocha"
+  },
+  "version": "1.3.9"
+}
